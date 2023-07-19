@@ -1,7 +1,7 @@
 ul{list-style-type: none;}
 
 body{
-    background: rgb(238, 209, 162);
+    background: rgb(169, 210, 177);
     color: white;
 
 }
@@ -15,9 +15,12 @@ h1{
 
 #About p{
     font-size: 20px;
-    font-family: '游ゴシック';
+
 }
 
+h2{
+    font-size: 50px;
+}
 
 header{
     background-image: url(ai3.png);
