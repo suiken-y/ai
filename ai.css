@@ -10,16 +10,20 @@ body{
 h1{
     font-size: 200px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 10px;
 }
 
-
-#About p{
-    font-size: 20px;
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    font-family: "Noto Serif JP", sans-serif
 
 }
 
 h2{
     font-size: 50px;
+    letter-spacing: 8px;
 }
 
 header{
@@ -30,6 +34,11 @@ header{
     align-items: center;
 }
 
+.list_header li{
+    font-size: 20px;
+    font-family:"Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体";
+}
+
 .list_header{
     background-color: rgb(169, 210, 177);
     width: 1200px;
@@ -38,13 +47,27 @@ header{
     align-items: center;
     }
 
+#About p{
+    font-size: 20px;
+    font-weight: 80;
+}
+
+
+#About h3{
+    font-size: 30px;
+}
+
+
+
 li{
     float: left;
     margin-left: 20px;
 
 }
-.list_header li{
-    display: flex;
+
+.products p{
+    font-size: 20px;
+    font-weight: bold;
 }
 
 .products img {
@@ -57,29 +80,14 @@ li{
     justify-content: space-between;
 }
 
-.pridycts li {
-    flex-basis: 10%;
-    list-style: none;
-    text-align: center;
+#History p{
+    font-weight: bold;
 }
+
 footer{
     text-align:  center;
 }
 
-form label{
-    display: inline-block;
-    width: 100px;
-    text-align: right;
-    margin-right: 10px;
-}
 
-a{
-  text-decoration: none;
-  color: white;
-  font-family: "Noto Serif JP", sans-serif}
 
-img.insta{
-    width: 200px;
-    height: 200px;
-}
-/* サイズ変更できない */
+
