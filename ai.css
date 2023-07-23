@@ -11,7 +11,6 @@ h1{
     font-size: 200px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     letter-spacing: 10px;
-    color: white;
 }
 
 a{
@@ -30,19 +29,36 @@ h2{
 header{
     background-image: url(ai3.png);
     background-size: cover;
-    height: 300px;
+    height: 200px;
     display: flex;
     align-items: center;
 }
 
+
 .list_header li{
     font-size: 20px;
     font-family:"Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体";
+    transition: all 0.5s;
+    border-radius: 20px;
 }
+
+.list_header li:hover{
+    box-shadow: 3px 3px rgb(97, 96, 96);
+    background-color:rgb(128, 148, 133);
+}
+
+.list_header li:active{
+    box-shadow: none;
+    position: relative;
+    top: 3px;
+    left: 3px
+}
+
 
 .list_header{
     background-color: rgb(169, 210, 177);
     width: 1200px;
+    height: 80px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -50,7 +66,7 @@ header{
 
 #About p{
     font-size: 20px;
-    font-weight: 80;
+    font-weight: 70;
 }
 
 
